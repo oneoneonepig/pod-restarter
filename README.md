@@ -26,3 +26,5 @@ pod-restarter -namespace=default -selector="app=nginx"
 - https://github.com/kubernetes/client-go/blob/master/examples/out-of-cluster-client-configuration/main.go
 - https://github.com/kubernetes/client-go/blob/master/examples/in-cluster-client-configuration/main.go
 
+## TODO
+- Check if the Pod is created by a controller. If yes, check delete the pod, if no, check whether the flag "-ignore-naked-pods" is set.
